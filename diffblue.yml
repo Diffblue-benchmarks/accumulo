@@ -9,7 +9,6 @@ cbmcArguments:
   string-printable: true
 units:
   - target:
-
 phases:
 -
   timeout: 60
