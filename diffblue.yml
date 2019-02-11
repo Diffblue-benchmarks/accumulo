@@ -1,0 +1,30 @@
+# Tested on Deeptest release 1.10.0
+testCmd: ls
+cbmcArguments:
+  depth: false
+  do-not-test-methods-with-access: [ private ]
+  java-generate-no-comments: true
+  no-trivial-tests: true
+  string-non-empty: true
+  string-printable: true
+units:
+  - target:
+
+phases:
+-
+  timeout: 60
+  cbmcArguments:
+    java-assume-inputs-non-null: true
+    max-nondet-array-length: 10
+    unwind: 1
+-
+  timeout: 120
+  cbmcArguments:
+    max-nondet-array-length: 20
+    unwind: 2
+-
+  timeout: 180
+  cbmcArguments:
+    max-nondet-array-length: 30
+    max-nondet-string-length: 10
+    unwind: 3

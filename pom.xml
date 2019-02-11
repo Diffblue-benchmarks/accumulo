@@ -973,6 +973,7 @@
               <exclude>nbproject/**</exclude>
               <exclude>nb-configuration.xml</exclude>
               <exclude>nbactions.xml</exclude>
+              <exclude>diffblue.yml</exclude>
             </excludes>
           </configuration>
         </plugin>
