@@ -92,7 +92,7 @@
     <module>server/tserver</module>
     <module>shell</module>
     <module>start</module>
-    <module>test</module>
+    <!-- <module>test</module> -->
   </modules>
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/accumulo.git</connection>
@@ -739,6 +739,12 @@
       <artifactId>spotbugs-annotations</artifactId>
       <optional>true</optional>
     </dependency>
+    <dependency>
+      <groupId>org.jacoco</groupId>
+      <artifactId>jacoco-maven-plugin</artifactId>
+      <version>0.8.3</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   <build>
     <pluginManagement>
@@ -888,7 +894,7 @@
             <systemPropertyVariables>
               <java.io.tmpdir>${project.build.directory}</java.io.tmpdir>
             </systemPropertyVariables>
-            <argLine>${unitTestMemSize}</argLine>
+            <argLine>${unitTestMemSize} -Djacoco-agent.destfile=${project.build.directory}/jacoco.exec</argLine>
           </configuration>
         </plugin>
         <plugin>
@@ -1314,6 +1320,34 @@
         <artifactId>maven-bundle-plugin</artifactId>
         <extensions>true</extensions>
         <inherited>true</inherited>
+      </plugin>
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.3</version>
+        <executions>
+          <execution>
+            <id>instrument</id>
+            <goals>
+              <goal>instrument</goal>
+            </goals>
+            <phase>process-test-classes</phase>
+          </execution>
+          <execution>
+            <id>restore-instrumented-classes</id>
+            <goals>
+              <goal>restore-instrumented-classes</goal>
+            </goals>
+            <phase>test</phase>
+          </execution>
+          <execution>
+            <id>report</id>
+            <goals>
+              <goal>report</goal>
+            </goals>
+            <phase>test</phase>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
