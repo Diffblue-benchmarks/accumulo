@@ -9,6 +9,670 @@ cbmcArguments:
   string-printable: true
 units:
   - target:
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/clientImpl/TableOperationsImpl.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/TableOperationsImpl.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/Constants.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/Constants.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/Constants.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/Constants.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/AccumuloException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/AccumuloException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/AccumuloException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/AccumuloException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/AccumuloSecurityException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/AccumuloSecurityException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/AccumuloSecurityException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/AccumuloSecurityException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/IteratorSetting.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/IteratorSetting.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/IteratorSetting.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/IteratorSetting.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/NamespaceExistsException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/NamespaceExistsException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/NamespaceExistsException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/NamespaceExistsException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/NamespaceNotFoundException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/NamespaceNotFoundException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/NamespaceNotFoundException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/NamespaceNotFoundException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/Scanner.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/Scanner.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/Scanner.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/Scanner.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/TableDeletedException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/TableDeletedException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/TableDeletedException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/TableDeletedException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/TableExistsException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/TableExistsException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/TableExistsException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/TableExistsException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/TableNotFoundException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/TableNotFoundException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/TableNotFoundException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/TableNotFoundException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/TableOfflineException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/TableOfflineException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/TableOfflineException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/TableOfflineException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/admin/CompactionConfig.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/CompactionConfig.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/admin/CompactionConfig.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/CompactionConfig.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/admin/DiskUsage.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/DiskUsage.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/admin/DiskUsage.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/DiskUsage.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/admin/FindMax.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/FindMax.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/admin/FindMax.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/FindMax.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/admin/Locations.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/Locations.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/admin/Locations.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/Locations.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/admin/NewTableConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/NewTableConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/admin/NewTableConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/NewTableConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/admin/SummaryRetriever.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/SummaryRetriever.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/admin/SummaryRetriever.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/SummaryRetriever.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/admin/TableOperations.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/TableOperations.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/admin/TableOperations.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/admin/TableOperations.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/sample/SamplerConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/sample/SamplerConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/sample/SamplerConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/sample/SamplerConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/summary/SummarizerConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/summary/SummarizerConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/summary/SummarizerConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/summary/SummarizerConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/client/summary/Summary.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/summary/Summary.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/client/summary/Summary.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/client/summary/Summary.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/clientImpl/bulk/BulkImport.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/bulk/BulkImport.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/clientImpl/bulk/BulkImport.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/bulk/BulkImport.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/clientImpl/thrift/TDiskUsage.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/thrift/TDiskUsage.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/clientImpl/thrift/TDiskUsage.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/thrift/TDiskUsage.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/clientImpl/thrift/ThriftNotActiveServiceException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/thrift/ThriftNotActiveServiceException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/clientImpl/thrift/ThriftNotActiveServiceException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/thrift/ThriftNotActiveServiceException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/clientImpl/thrift/ThriftSecurityException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/thrift/ThriftSecurityException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/clientImpl/thrift/ThriftSecurityException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/thrift/ThriftSecurityException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/clientImpl/thrift/ThriftTableOperationException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/thrift/ThriftTableOperationException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/clientImpl/thrift/ThriftTableOperationException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/clientImpl/thrift/ThriftTableOperationException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/conf/AccumuloConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/conf/AccumuloConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/conf/AccumuloConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/conf/AccumuloConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/conf/ConfigurationCopy.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/conf/ConfigurationCopy.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/conf/ConfigurationCopy.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/conf/ConfigurationCopy.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/conf/Property.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/conf/Property.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/conf/Property.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/conf/Property.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/constraints/Constraint.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/constraints/Constraint.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/constraints/Constraint.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/constraints/Constraint.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/data/ByteSequence.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/data/ByteSequence.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/data/ByteSequence.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/data/ByteSequence.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/data/Range.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/data/Range.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/data/Range.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/data/Range.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/data/TabletId.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/data/TabletId.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/data/TabletId.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/data/TabletId.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/dataImpl/KeyExtent.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/KeyExtent.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/dataImpl/KeyExtent.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/KeyExtent.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/dataImpl/TabletIdImpl.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/TabletIdImpl.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/dataImpl/TabletIdImpl.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/TabletIdImpl.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/dataImpl/thrift/TRowRange.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/thrift/TRowRange.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/dataImpl/thrift/TRowRange.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/thrift/TRowRange.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/dataImpl/thrift/TSummaries.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/thrift/TSummaries.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/dataImpl/thrift/TSummaries.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/thrift/TSummaries.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/dataImpl/thrift/TSummarizerConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/thrift/TSummarizerConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/dataImpl/thrift/TSummarizerConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/thrift/TSummarizerConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/dataImpl/thrift/TSummaryRequest.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/thrift/TSummaryRequest.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/dataImpl/thrift/TSummaryRequest.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/dataImpl/thrift/TSummaryRequest.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/iterators/IteratorUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/iterators/IteratorUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/iterators/IteratorUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/iterators/IteratorUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/iterators/SortedKeyValueIterator.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/iterators/SortedKeyValueIterator.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/iterators/SortedKeyValueIterator.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/iterators/SortedKeyValueIterator.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/master/state/tables/TableState.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/master/state/tables/TableState.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/master/state/tables/TableState.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/master/state/tables/TableState.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/master/thrift/FateOperation.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/master/thrift/FateOperation.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/master/thrift/FateOperation.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/master/thrift/FateOperation.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/master/thrift/MasterClientService.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/master/thrift/MasterClientService.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/master/thrift/MasterClientService.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/master/thrift/MasterClientService.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/metadata/MetadataServicer.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/MetadataServicer.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/metadata/MetadataServicer.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/MetadataServicer.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/metadata/MetadataTable.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/MetadataTable.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/metadata/MetadataTable.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/MetadataTable.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/metadata/RootTable.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/RootTable.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/metadata/RootTable.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/RootTable.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/metadata/schema/TabletMetadata.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/schema/TabletMetadata.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/metadata/schema/TabletMetadata.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/schema/TabletMetadata.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/metadata/schema/TabletsMetadata.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/schema/TabletsMetadata.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/metadata/schema/TabletsMetadata.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/metadata/schema/TabletsMetadata.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/rpc/ThriftUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/rpc/ThriftUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/rpc/ThriftUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/rpc/ThriftUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/sample/impl/SamplerConfigurationImpl.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/sample/impl/SamplerConfigurationImpl.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/sample/impl/SamplerConfigurationImpl.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/sample/impl/SamplerConfigurationImpl.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/security/Authorizations.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/security/Authorizations.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/security/Authorizations.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/security/Authorizations.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/summary/SummarizerConfigurationUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/summary/SummarizerConfigurationUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/summary/SummarizerConfigurationUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/summary/SummarizerConfigurationUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/summary/SummaryCollection.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/summary/SummaryCollection.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/summary/SummaryCollection.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/summary/SummaryCollection.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/tabletserver/thrift/NotServingTabletException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/tabletserver/thrift/NotServingTabletException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/tabletserver/thrift/NotServingTabletException.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/tabletserver/thrift/NotServingTabletException.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/tabletserver/thrift/TabletClientService.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/tabletserver/thrift/TabletClientService.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/tabletserver/thrift/TabletClientService.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/tabletserver/thrift/TabletClientService.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/trace/Tracer.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/trace/Tracer.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/trace/Tracer.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/trace/Tracer.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/util/HostAndPort.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/HostAndPort.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/util/HostAndPort.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/HostAndPort.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/util/LocalityGroupUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/LocalityGroupUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/util/LocalityGroupUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/LocalityGroupUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/util/MapCounter.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/MapCounter.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/util/MapCounter.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/MapCounter.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/util/NamingThreadFactory.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/NamingThreadFactory.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/util/NamingThreadFactory.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/NamingThreadFactory.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/util/OpTimer.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/OpTimer.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/util/OpTimer.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/OpTimer.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/util/Pair.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/Pair.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/util/Pair.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/Pair.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/util/TextUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/TextUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/util/TextUtil.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/util/TextUtil.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/core/volume/VolumeConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/volume/VolumeConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/core/volume/VolumeConfiguration.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/core/volume/VolumeConfiguration.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/classes
+      file: org/apache/accumulo/fate/util/Retry.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/fate/util/Retry.java
+    # Child of TableOperationsImpl.class
+    - dir: core/target/generated-classes/jacoco
+      file: org/apache/accumulo/fate/util/Retry.class
+      sourceDir: core/src/main/java
+      sourceFile: org/apache/accumulo/fate/util/Retry.java
 phases:
 -
   timeout: 60
